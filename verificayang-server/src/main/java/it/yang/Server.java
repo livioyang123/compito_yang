@@ -70,7 +70,7 @@ class ClientHandler implements Runnable {
 
                     float risultato = Calcolo(operatore, n1, n2);
 
-                    if(operatore.equals("/") && n2==0) outVersoClient.writeBytes(" ERRORE: inserisci un operatore valido"+"\n");
+                    if(operatore.equals("/") && n2==0) outVersoClient.writeBytes(" ERRORE: inserisci un numero valido"+"\n");
                         
                     else if(risultato == 0) outVersoClient.writeBytes(" ERRORE:Inserisci un operatore valido"+"\n");
                             

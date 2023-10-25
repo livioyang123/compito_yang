@@ -1,8 +1,0 @@
-Realizzare un'applicazione client-server che implementi il funzionamento di una calcolatrice:
-Il client si connette al server e gli invia operandi e operatore.
-Il server esegue l'operazione e invia il risultato al client.
-Le operazione richieste sono quelle di base (addizione, sottrazione, moltiplicazione e divisione).
-Resta libera la scelta di scambiare i dati in più passaggi oppure in un'unica stringa da parsare.
-Consegna:
-1. Link repository git
-2. File zip del progetto con nome file calcolatrice-tcp-cognome.zip (esclusa la cartella target)
